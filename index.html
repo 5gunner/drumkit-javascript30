@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container keys-wrapper">
+        <div class="key" data-key="65">
+            <kbd>A</kbd>
+            <span class="sound small text-uppercase">clap</span>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <span class="sound small text-uppercase">hihat</span>
+        </div>
+        <div class="key" data-key="68">
+            <kbd>D</kbd>
+            <span class="sound small text-uppercase">kick</span>
+        </div>
+        <div class="key" data-key="70">
+            <kbd>F</kbd>
+            <span class="sound small text-uppercase">ohat</span>
+        </div>
+        <div class="key" data-key="71">
+            <kbd>G</kbd>
+            <span class="sound small text-uppercase">boom</span>
+        </div>
+        <div class="key" data-key="72">
+            <kbd>H</kbd>
+            <span class="sound small text-uppercase">ride</span>
+        </div>
+        <div class="key" data-key="74">
+            <kbd>J</kbd>
+            <span class="sound small text-uppercase">snare</span>
+        </div>
+        <div class="key" data-key="75">
+            <kbd>K</kbd>
+            <span class="sound small text-uppercase">tom</span>
+        </div>
+    </div>
+    <audio src="./audio/clap.wav" data-key="65"></audio>
+    <audio src="./audio/hihat.wav" data-key="83"></audio>
+    <audio src="./audio/kick.wav" data-key="68"></audio>
+    <audio src="./audio/openhat.wav" data-key="70"></audio>
+    <audio src="./audio/boom.wav" data-key="71"></audio>
+    <audio src="./audio/ride.wav" data-key="72"></audio>
+    <audio src="./audio/snare.wav" data-key="74"></audio>
+    <audio src="./audio/tom.wav" data-key="75"></audio>
+<script src="./script.js"></script>
+</body>
+</html>
